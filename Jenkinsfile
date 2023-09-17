@@ -10,7 +10,7 @@ pipeline
           {
             steps
              {
-              git branch: 'main', url: 'https://github.com/kuldeepsingh99/openshift-jenkins-cicd.git'
+              git branch: 'main', url: 'https://github.com/izumi777777/openshift-jenkins-cicd.git'
               script {
                   def pom = readMavenPom file: 'pom.xml'
                   version = pom.version
