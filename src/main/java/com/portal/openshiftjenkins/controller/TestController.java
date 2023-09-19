@@ -8,7 +8,6 @@ public class TestController {
 
 	@GetMapping("/hello")
 	public String ping() {
-		throw new Exception();
 		return "Openshift Good,job! Testing!! Thank you!!";
 	}
 }
