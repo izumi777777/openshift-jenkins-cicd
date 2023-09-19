@@ -8,6 +8,7 @@ class OpenshiftjenkinsApplicationTests {
 
 	@Test
 	void contextLoads() {
+		throw new Exception();
 	}
 
 }
