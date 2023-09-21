@@ -11,6 +11,7 @@ pipeline
             steps
              {
               git branch: 'main', url: 'https://github.com/izumi777777/openshift-jenkins-cicd.git'
+              credentialsId: 'cicdtest'
               script {
                   def pom = readMavenPom file: 'pom.xml'
                   version = pom.version
